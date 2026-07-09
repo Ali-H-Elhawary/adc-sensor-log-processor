@@ -1,0 +1,7 @@
+build/
+*.o
+adc_processor
+results.txt
+fault_report.txt
+.idea/
+cmake-build-*/
