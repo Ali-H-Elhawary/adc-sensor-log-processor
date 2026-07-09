@@ -5,3 +5,4 @@ results.txt
 fault_report.txt
 .idea/
 cmake-build-*/
+adc_sensor_log.bin
