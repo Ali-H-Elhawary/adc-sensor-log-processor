@@ -7,7 +7,7 @@
 
 #define ADC_MAGIC_NUMBER 0xADC1BEEFu
 
-#pragma pack(push, 1)
+//#pragma pack(push, 1)
 
 typedef struct {
     uint32_t    magic;
@@ -28,7 +28,7 @@ typedef struct {
     uint8_t     reserved[2];
 } RawRecord;
 
-#pragma pack(pop)
+//#pragma pack(pop)
 
 int io_read_header(FILE *fp, RawHeader *header_out);
 
